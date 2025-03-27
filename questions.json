@@ -764,6 +764,7 @@
         ],
         "answer": null,
         "type": "MCQ"
+        "image": "q68.jpg"
      },
      {
         "question_id": 69,
@@ -776,6 +777,7 @@
         ],
         "answer": null,
         "type": "MCQ"
+        "image": "q69.jpg"
      },
      {
         "question_id": 70,
@@ -788,36 +790,42 @@
         ],
         "answer": null,
         "type": "Integer"
+        "image": "q70.jpg"
      },
      {
         "question_id": 71,
         "question": "The formation enthalpies, ΔH_f° for H(g) and O(g) are 220.0 and 250.0 kJ mol−1, respectively, at 298.15 K, and ΔH_f° for H2O(g) is -242.0 kJ mol−1 at the same temperature. The average bond enthalpy of the O-H bond in water at 298.15 K is ______ kJ mol−1 (nearest integer).",
         "answer": null,
         "type": "Integer"
+        "image": "q71.jpg"
      },
      {
         "question_id": 72,
         "question": "The molarity of a 70% (mass/mass) aqueous solution of a monobasic acid (X) is ______ x10−1 M (Nearest integer) [Given: Density of aqueous solution of (X) is 1.25 g mL−1 Molar mass of the acid is 70 g mol−1]",
         "answer": null,
         "type": "Integer"
+        "image": "q72.jpg"
      },
      {
         "question_id": 73,
         "question": "Consider the following sequence of reactions:\nChlorobenzene → (i) Mg, dry ether → (ii) CO2, H3O+ → A → (iii) NH3, Δ → B → (iv) Br2, NaOH → B\n11.25 mg of chlorobenzene will produce ______ x10−1 mg of product B. (Consider the reactions result in complete conversion.) [Given molar mass of C, H, O, N and Cl as 12, 1, 16, 14 and 35.5 g mol−1 respectively]",
         "answer": null,
         "type": "Integer"
+        "image": "q73.jpg"
      },
      {
         "question_id": 74,
         "question": "Quantitative analysis of an organic compound (X) shows the following % composition: C: 14.5%, Cl: 64.461%, H: 1.8%. The empirical formula mass of the compound (X) is ______ x10−1 (Given molar mass in g mol−1).",
         "answer": null,
         "type": "Integer"
+        "image": "q74.jpg"
      },
      {
         "question_id": 75,
         "question": "The number of chiral centers in the given compound is ______ (nearest integer).",
         "answer": null,
         "type": "Integer"
+        "image": "q75.jpg"
      }
 ]
 
