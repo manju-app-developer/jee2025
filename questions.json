@@ -596,6 +596,97 @@
         "answer": null,
         "type": "MCQ",
         "image": "q55.jpg"
+    },
+    {
+        "question_id": 56,
+        "question": "The products A and B in the following reactions, respectively are:\nA → CH3 - CH2 - Br → B",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q56.jpg"
+    },
+    {
+        "question_id": 57,
+        "question": "In a multielectron atom, which of the following orbitals described by three quantum numbers will have the same energy in absence of electric and magnetic fields?\nA. n = 1, l = 0, m1 = 0\nB. n = 2, l = 0, m1 = 0\nC. n = 2, l = 1, m1 = 1\nD. n = 3, l = 2, m1 = 1\nE. n = 3, l = 2, m1 = 0\nChoose the correct answer from the options given below:",
+        "options": [
+          "B and C Only",
+          "A and B Only",
+          "C and D Only",
+          "D and E Only"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q57.jpg"
+    },
+    {
+        "question_id": 58,
+        "question": "A weak acid HA has a degree of dissociation x. Which option gives the correct expression of ( pH - pKa )?",
+        "options": [
+          "0",
+          "log(1 + 2x)",
+          "log(1 - x)",
+          "log(1 - x / x)"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q58.jpg"
+    },
+    {
+        "question_id": 59,
+        "question": "The molecules having square pyramidal geometry are:",
+        "options": [
+          "BrF5 & PCl5",
+          "SbF5 & PCl5",
+          "SbF5 & XeOF4",
+          "BrF5 & XeOF4"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q59.jpg"
+    },
+    {
+        "question_id": 60,
+        "question": "Consider the following elements In, Tl, Al, Pb, Sn, and Ge. The most stable oxidation states of elements with highest and lowest first ionization enthalpies, respectively, are:",
+        "options": [
+          "+4 and +3",
+          "+4 and +2",
+          "+3 and +4",
+          "+2 and +3"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q60.jpg"
+    },
+    {
+        "question_id": 61,
+        "question": "For a given reaction R → P, t1/2 is related to [A]0 as given in the table:\nGiven: log 2 = 0.30\nWhich of the following is true?\nA. The order of the reaction is 1/2.\nB. If [A]0 is 1 M, then t1/2 is 200√10 min.\nC. The order of the reaction changes to 1 if the concentration of reactant changes from 0.100 M to 0.500 M.\nD. t1/2 is 800 min for [A]0 = 1.6M\nChoose the correct answer from the options given below:",
+        "options": [
+          "A and C Only",
+          "A, B and D Only",
+          "C and D Only",
+          "A and B Only"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q61.jpg"
+    },
+    {
+        "question_id": 62,
+        "question": "Match the LIST-I with LIST-II\nLIST-I (Redox Reaction) \nA. CH4 + 2O2 → CO2 + 2H2O\nB. 2NaHg → 2Na + Hg2\nC. 2V2O5 + 5Ca → 4V + 5CaO\nD. 2H2O2 → 2H2O + O2\nLIST-II (Type of Redox Reaction)\nI. Disproportionation reaction\nII. Combination reaction\nIII. Decomposition reaction\nIV. Displacement reaction\nChoose the correct answer from the options given below:",
+        "options": [
+          "A-II, B-III, C-I, D-IV",
+          "A-III, B-IV, C-I, D-I",
+          "A-IV, B-I, C-II, D-III",
+          "A-II, B-III, C-IV, D-I"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q62.jpg"
     }
 ]
 
