@@ -102,5 +102,158 @@
         "answer": "3/4",
         "type": "MCQ",
         "image": "q8.jpg"
+    },
+    {
+        "question_id": 9,
+        "question": "If the image of the point (4, 4, 3) in the line (x-1)/2 = (y-2)/T = (z-1)/3 is (α, β, γ), then α + β + γ is equal to",
+        "options": ["9", "12", "7", "8"],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q9.jpg"
+    },
+    {
+        "question_id": 10,
+        "question": "cos(sin⁻¹ 3/5 + sin⁻¹ 5/13 + sin⁻¹ 33/65) is equal to",
+        "options": ["1", "2", "32/65", "33/65"],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q10.jpg"
+    },
+    {
+        "question_id": 11,
+        "question": "Let A(x, y, z) be a point in xy-plane, which is equidistant from three points (0,3,2), (2,0,3) and (0,0,1). Let B = (1,4,-1) and C = (2,0,-2). Then among the statements (S1) : ΔABC is an isosceles right-angled triangle, and (S2) : the area of ΔABC is 9√2/2",
+        "options": ["both are true", "only (S2) is true", "only (S1) is true", "both are false"],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q11.jpg"
+    },
+    {
+        "question_id": 12,
+        "question": "The area (in sq. units) of the region {(x,y) : 0 ≤ y ≤ 2|x| + 1, 0 ≤ y ≤ x² + 1, |x| ≤ 3} is",
+        "options": ["80/3", "32/3", "64/3", "17/3"],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q12.jpg"
+    },
+    {
+        "question_id": 13,
+        "question": "The sum of the squares of all the roots of the equation x² + |2x - 3| - 4 = 0, is",
+        "options": ["3(3 - √2)", "6(3 - √2)", "6(2 - √2)", "4(3 - √2)"],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q13.jpg"
+    },
+    {
+        "question_id": 14,
+        "question": "Let Tr be the rᵗʰ term of an A.P. If for some m, Tm = 25/3, T25 = 31/3, and 20 ∑ᵣ₌₁ Tᵣ = 13, then 5 m ∑ᵣ₌ₘ Tᵣ is equal to",
+        "options": ["98", "126", "142", "112"],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q14.jpg"
+    },
+    {
+        "question_id": 15,
+        "question": "Three defective oranges are accidently mixed with seven good ones and on looking at them, it is not possible to differentiate them. Two oranges are drawn at random from the lot. If x denote the number of defective oranges, then the variance of x is",
+        "options": ["28/75", "18/25", "26/75", "14/25"],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q15.jpg"
+    },
+    {
+        "question_id": 16,
+        "question": "Let for some function y = f(x), ∫₀¹ ∫₀² t f(t) dt dx = x² f(x), x > 0 and f(2) = 3. Then f(6) is equal to",
+        "options": ["1", "3", "6", "2"],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q16.jpg"
+    },
+    {
+        "question_id": 17,
+        "question": "If ∫π/4⁷ (9π² - cos²x) / (1 + e^x²) dx = π(απ² + β), α, β ∈ Z, then (α + β)² equals",
+        "options": ["64", "196", "144", "100"],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q17.jpg"
+    },
+    {
+        "question_id": 18,
+        "question": "Let {aₙ} be a sequence such that a₀ = 0, a₁ = 1/2 and 2aₙ₊₂ = 5aₙ₊₁ - 3aₙ, n = 0,1,2,3,.... Then ∑ₖ₌₁¹⁰⁰ aₖ is equal to",
+        "options": [],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q18.jpg"
+    },
+    {
+        "question_id": 19,
+        "question": "The number of different 5 digit numbers greater than 50000 that can be formed using the digits 0, 1, 2, 3, 4, 5, 6, 7, such that the sum of their first and last digits should not be more than 8, is",
+        "options": ["4608", "5720", "5719", "4607"],
+        "answer": null,
+        "type": "MCQ"
+    },
+    {
+        "question_id": 20,
+        "question": "The relation R = {(x, y) : x, y ∈ Z and x + y is even } is:",
+        "options": [
+            "reflexive and symmetric but not transitive",
+            "an equivalence relation",
+            "symmetric and transitive but not reflexive",
+            "reflexive and transitive but not symmetric"
+        ],
+        "answer": null,
+        "type": "MCQ"
+    },
+    {
+        "question_id": 21,
+        "question": "Let f(x) = { 3x, x < 0; min(1 + x + ⌊x⌋, x + 2⌊x⌋), 0 ≤ x ≤ 2; 5, x > 2 }. If α and β are the number of points where f is not continuous and not differentiable, respectively, then α + β equals",
+        "options": [],
+        "answer": null,
+        "type": "Integer"
+    },
+    {
+        "question_id": 22,
+        "question": "Let M denote the set of all real matrices of order 3 × 3 and let S = {−3, −2, −1, 1, 2}. Let S₁ = {A = [aᵢⱼ] ∈ M : A = Aᵀ and aᵢⱼ ∈ S, ∀i,j}, S₂ = {A = [aᵢⱼ] ∈ M : A = −Aᵀ and aᵢⱼ ∈ S, ∀i,j}, S₃ = {A = [aᵢⱼ] ∈ M : a₁₁ + a₂₂ + a₃₃ = 0 and aᵢⱼ ∈ S, ∀i,j}. If n(S₁ ∪ S₂ ∪ S₃) = 125α, then α equals",
+        "options": [],
+        "answer": null,
+        "type": "Integer"
+    },
+    {
+        "question_id": 23,
+        "question": "If α = 1 + ∑ₙ₌₁⁶ (-3)ⁿ⁻¹ ¹²C₂ₙ₋₁, then the distance of the point (12, √3) from the line αx - √3y + 1 = 0 is",
+        "options": [],
+        "answer": null,
+        "type": "Integer"
+    },
+    {
+        "question_id": 24,
+        "question": "Let E₁ : x²/9 + y²/4 = 1 be an ellipse. Ellipses Eᵢ's are constructed such that their centres and eccentricities are same as that of E₁, and the length of minor axis of Eᵢ is the length of major axis of Eᵢ₊₁(i ≥ 1). If Aᵢ is the area of the ellipse Eᵢ, then ∑ₙ₌₁∞ Aᵢ is equal to",
+        "options": [],
+        "answer": null,
+        "type": "Integer"
+    },
+    {
+        "question_id": 25,
+        "question": "Let ā = î + ĵ + k̂, b̄ = 2î + 2ĵ + k̂ and c̄ = ā × b̄. If c̄ is a vector such that ā ⋅ c̄ = |c̄|, [c̄ - 2ā]² = 8 and the angle between c̄ and d̄ is π/4, then |10 - 3b̄ ⋅ c̄| + |d̄ × c̄|² is equal to",
+        "options": [],
+        "answer": null,
+        "type": "Integer"
+    },
+    {
+        "question_id": 26,
+        "question": "Three infinitely long wires with linear charge density λ are placed along the x-axis, y-axis and z-axis respectively. Which of the following denotes an equipotential surface?",
+        "options": [
+            "xyz = constant",
+            "xy + yz + zx = constant",
+            "(x² + y²)(y² + z²)(z² + x²) = constant",
+            "(x + y)(y + z)(z + x) = constant"
+        ],
+        "answer": null,
+        "type": "MCQ"
+    },
+    {
+        "question_id": 27,
+        "question": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R. Assertion A: A sound wave has higher speed in solids than gases. Reason R: Gases have higher value of Bulk modulus than solids. In the light of the above statements, choose the correct answer from the options given below",
+        "options": [],
+        "answer": null,
+        "type": "MCQ"
     }
 ]
