@@ -178,7 +178,7 @@
     {
         "question_id": 18,
         "question": "Let {aₙ} be a sequence such that a₀ = 0, a₁ = 1/2 and 2aₙ₊₂ = 5aₙ₊₁ - 3aₙ, n = 0,1,2,3,.... Then ∑ₖ₌₁¹⁰⁰ aₖ is equal to",
-        "options": [],
+        "options": ["A", "B", "C", "D"],
         "answer": null,
         "type": "MCQ",
         "image": "q18.jpg"
