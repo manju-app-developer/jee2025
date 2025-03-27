@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let currentQuestionIndex = 0;
     let userAnswers = {};
     let timer;
-    let timeLeft = 1800; // 30 minutes (1800 seconds)
+    let timeLeft = 10800; // 3 hours (10800 seconds)
 
     const questionContainer = document.getElementById("question-container");
     const questionText = document.getElementById("question-text");
@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Create navigation buttons
     function createNavButtons() {
+        navButtonsContainer.innerHTML = "";
         questions.forEach((_, index) => {
             const btn = document.createElement("button");
             btn.classList.add("nav-btn");
@@ -57,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
         integerAnswerInput.style.display = "none";
         
         if (currentQuestion.type === "MCQ") {
-            currentQuestion.options.forEach((option, i) => {
+            currentQuestion.options.forEach((option) => {
                 const button = document.createElement("button");
                 button.classList.add("option-btn");
                 button.innerText = option;
@@ -71,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
             integerAnswerInput.style.display = "block";
             integerAnswerInput.value = userAnswers[index] || "";
             integerAnswerInput.oninput = () => {
-                userAnswers[index] = integerAnswerInput.value;
+                userAnswers[index] = integerAnswerInput.value.trim();
             };
         }
 
@@ -81,14 +82,14 @@ document.addEventListener("DOMContentLoaded", function () {
     // Select an answer
     function selectAnswer(index, answer) {
         userAnswers[index] = answer;
-        loadQuestion(index); // Refresh question to update UI
+        loadQuestion(index);
     }
 
     // Update navigation buttons
     function updateNavButtons() {
         const buttons = document.querySelectorAll(".nav-btn");
         buttons.forEach((btn, i) => {
-            btn.classList.remove("active");
+            btn.classList.remove("active", "answered");
             if (userAnswers[i]) {
                 btn.classList.add("answered");
             }
@@ -100,9 +101,10 @@ document.addEventListener("DOMContentLoaded", function () {
     function startTimer() {
         timer = setInterval(() => {
             timeLeft--;
-            let minutes = Math.floor(timeLeft / 60);
+            let hours = Math.floor(timeLeft / 3600);
+            let minutes = Math.floor((timeLeft % 3600) / 60);
             let seconds = timeLeft % 60;
-            timerDisplay.innerText = `Time Left: ${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
+            timerDisplay.innerText = `Time Left: ${hours}:${minutes < 10 ? "0" : ""}${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
             
             if (timeLeft <= 0) {
                 clearInterval(timer);
@@ -131,14 +133,29 @@ document.addEventListener("DOMContentLoaded", function () {
         clearInterval(timer);
         let score = 0;
         let totalQuestions = questions.length;
+        let maxMarks = 300; // Total marks
+        let correctMarks = 4;
+        let incorrectMarks = -1;
 
         questions.forEach((question, index) => {
-            if (userAnswers[index] === question.answer) {
-                score++;
+            if (userAnswers[index] !== undefined) {
+                if (userAnswers[index] == question.answer) {
+                    score += correctMarks;
+                } else {
+                    score += incorrectMarks;
+                }
             }
         });
 
-        resultContainer.innerHTML = `<h2>Quiz Completed!</h2><p>Your Score: ${score} / ${totalQuestions}</p>`;
+        // Display Results
+        let percentage = (score / maxMarks) * 100;
+        let resultMessage = `
+            <h2>Quiz Completed!</h2>
+            <p><strong>Your Score:</strong> ${score} / ${maxMarks}</p>
+            <p><strong>Percentage:</strong> ${percentage.toFixed(2)}%</p>
+        `;
+        
+        resultContainer.innerHTML = resultMessage;
         resultContainer.style.display = "block";
     }
 });
