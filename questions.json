@@ -1,0 +1,106 @@
+[
+    {
+        "question_id": 1,
+        "question": "Let O be the origin, the point A be z1 = √3 + 2√2i, the point B (z2) be such that √3|z2| = |z1| and arg(z2) = arg(z1) + π. Then",
+        "options": [
+            "Area of triangle ABO is 11√3 / 11",
+            "ABO is an obtuse angled isosceles triangle",
+            "Area of triangle ABO is 11",
+            "ABO is a scalene triangle"
+        ],
+        "answer": "ABO is an obtuse angled isosceles triangle",
+        "type": "MCQ",
+        "image": "q1.jpg"
+    },
+    {
+        "question_id": 2,
+        "question": "Let f: R → R be a function defined by f(x) = (2 + 3a)x² + (a-2)x + b, a ≠ 1. If f(x + y) = f(x) + f(y) + 1 - (2/7)xy, then the value of 28 ∑i=1 |f(i)| is:",
+        "options": [
+            "545",
+            "715",
+            "735",
+            "675"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q2.jpg"
+    },
+    {
+        "question_id": 3,
+        "question": "Let ABCD be a trapezium whose vertices lie on the parabola y² = 4x. Let the sides AD and BC of the trapezium be parallel to the y-axis. If the diagonal AC is of length 25/8 and it passes through the point (1,0), then the area of ABCD is:",
+        "options": [
+            "75/4",
+            "25/8",
+            "125/8",
+            "75/8"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q3.jpg"
+    },
+    {
+        "question_id": 4,
+        "question": "The sum of all local minimum values of the function f(x) is:",
+        "options": [
+            "157/72",
+            "131/72",
+            "167/72",
+            "121/72"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q4.jpg"
+    },
+    {
+        "question_id": 5,
+        "question": "Let ^nCr-1 = 28, ^nCr = 56 and ^nCr+1 = 70. Let A(4 cos t, 4 sin t), B(2 sin t, -2 cos t) and C(3r - n, r² - n -1) be the vertices of a triangle ABC, where t is a parameter. If (3x - 1)² + (3y)² = α, is the locus of the centroid of triangle ABC, then α equals:",
+        "options": [
+            "6",
+            "18",
+            "8",
+            "20"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q5.jpg"
+    },
+    {
+        "question_id": 6,
+        "question": "Let the equation of the circle, which touches x-axis at the point (a, 0), a > 0 and cuts off an intercept of length b on y-axis be x² + y² - αx + βy + γ = 0. If the circle lies below x-axis, then the ordered pair (2a, b²) is equal to:",
+        "options": [
+            "(γ, β² - 4α)",
+            "(α, β² + 4γ)",
+            "(γ, β² + 4α)",
+            "(α, β² - 4γ)"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q6.jpg"
+    },
+    {
+        "question_id": 7,
+        "question": "If f(x) = 2^(x/√2), x ∈ R, then ∑k=1 f(k/82) is equal to:",
+        "options": [
+            "1.81√2",
+            "41",
+            "82",
+            "81/2"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q7.jpg"
+    },
+    {
+        "question_id": 8,
+        "question": "Two numbers k₁ and k₂ are randomly chosen from the set of natural numbers. Then, the probability that the value of i^k1 + i^k2 (i = √-1) is non-zero, equals:",
+        "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "1"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q8.jpg"
+    }
+]
