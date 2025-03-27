@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
     let questions = [];
     let currentQuestionIndex = 0;
-    let userAnswers = {};
+    let userAnswers = JSON.parse(localStorage.getItem("userAnswers")) || {};
     let timer;
-    let timeLeft = 10800; // 3 hours (10800 seconds)
+    let timeLeft = parseInt(localStorage.getItem("timeLeft")) || 10800; // 3 hours in seconds
 
     const questionContainer = document.getElementById("question-container");
     const questionText = document.getElementById("question-text");
@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const resultContainer = document.getElementById("result-container");
     const timerDisplay = document.getElementById("timer");
     const navButtonsContainer = document.getElementById("nav-buttons");
+    const darkModeToggle = document.getElementById("dark-mode-toggle");
 
     // Load questions from JSON file
     fetch("questions.json")
@@ -38,6 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
             btn.onclick = () => loadQuestion(index);
             navButtonsContainer.appendChild(btn);
         });
+        updateNavButtons();
     }
 
     // Load a question
@@ -56,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         optionsContainer.innerHTML = "";
         integerAnswerInput.style.display = "none";
-        
+
         if (currentQuestion.type === "MCQ") {
             currentQuestion.options.forEach((option) => {
                 const button = document.createElement("button");
@@ -73,6 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
             integerAnswerInput.value = userAnswers[index] || "";
             integerAnswerInput.oninput = () => {
                 userAnswers[index] = integerAnswerInput.value.trim();
+                saveProgress();
             };
         }
 
@@ -82,16 +85,24 @@ document.addEventListener("DOMContentLoaded", function () {
     // Select an answer
     function selectAnswer(index, answer) {
         userAnswers[index] = answer;
+        saveProgress();
         loadQuestion(index);
+    }
+
+    // Save progress to localStorage
+    function saveProgress() {
+        localStorage.setItem("userAnswers", JSON.stringify(userAnswers));
     }
 
     // Update navigation buttons
     function updateNavButtons() {
         const buttons = document.querySelectorAll(".nav-btn");
         buttons.forEach((btn, i) => {
-            btn.classList.remove("active", "answered");
+            btn.classList.remove("active", "answered", "unanswered");
             if (userAnswers[i]) {
                 btn.classList.add("answered");
+            } else {
+                btn.classList.add("unanswered");
             }
         });
         buttons[currentQuestionIndex].classList.add("active");
@@ -100,15 +111,16 @@ document.addEventListener("DOMContentLoaded", function () {
     // Timer function
     function startTimer() {
         timer = setInterval(() => {
-            timeLeft--;
-            let hours = Math.floor(timeLeft / 3600);
-            let minutes = Math.floor((timeLeft % 3600) / 60);
-            let seconds = timeLeft % 60;
-            timerDisplay.innerText = `Time Left: ${hours}:${minutes < 10 ? "0" : ""}${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
-            
             if (timeLeft <= 0) {
                 clearInterval(timer);
                 submitQuiz();
+            } else {
+                timeLeft--;
+                localStorage.setItem("timeLeft", timeLeft);
+                let hours = String(Math.floor(timeLeft / 3600)).padStart(2, "0");
+                let minutes = String(Math.floor((timeLeft % 3600) / 60)).padStart(2, "0");
+                let seconds = String(timeLeft % 60).padStart(2, "0");
+                timerDisplay.innerText = `${hours}:${minutes}:${seconds}`;
             }
         }, 1000);
     }
@@ -131,15 +143,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function submitQuiz() {
         clearInterval(timer);
+        localStorage.removeItem("userAnswers");
+        localStorage.removeItem("timeLeft");
+
         let score = 0;
-        let totalQuestions = questions.length;
         let maxMarks = 300; // Total marks
         let correctMarks = 4;
         let incorrectMarks = -1;
 
         questions.forEach((question, index) => {
             if (userAnswers[index] !== undefined) {
-                if (userAnswers[index] == question.answer) {
+                let userAnswer = userAnswers[index];
+                if (question.type === "Integer") {
+                    userAnswer = parseInt(userAnswer);
+                }
+                if (userAnswer == question.answer) {
                     score += correctMarks;
                 } else {
                     score += incorrectMarks;
@@ -149,13 +167,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Display Results
         let percentage = (score / maxMarks) * 100;
-        let resultMessage = `
+        resultContainer.innerHTML = `
             <h2>Quiz Completed!</h2>
             <p><strong>Your Score:</strong> ${score} / ${maxMarks}</p>
             <p><strong>Percentage:</strong> ${percentage.toFixed(2)}%</p>
         `;
-        
-        resultContainer.innerHTML = resultMessage;
         resultContainer.style.display = "block";
+    }
+
+    // Dark mode toggle
+    darkModeToggle.onclick = () => {
+        document.body.classList.toggle("dark-mode");
+        let mode = document.body.classList.contains("dark-mode") ? "Dark" : "Light";
+        darkModeToggle.innerHTML = `<i class="fas fa-${mode === "Dark" ? "sun" : "moon"}"></i>`;
+        localStorage.setItem("theme", mode);
+    };
+
+    // Load theme from localStorage
+    if (localStorage.getItem("theme") === "Dark") {
+        document.body.classList.add("dark-mode");
+        darkModeToggle.innerHTML = `<i class="fas fa-sun"></i>`;
     }
 });
