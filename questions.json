@@ -309,5 +309,96 @@
         ],
         "answer": null,
         "type": "MCQ"
+    },
+    {
+        "question_id": 32,
+        "question": "Choose the correct nuclear process from the below options [p: proton, n: neutron, e⁻: electron, e⁺: positron, ν: neutrino, ν̅: antineutrino]",
+        "options": [
+            "n → p + e⁺ + ν̅",
+            "n → p + e⁻ + ν",
+            "n → p + e⁺ + ν",
+            "n → p + e⁻ + ν̅"
+        ],
+        "answer": "n → p + e⁻ + ν̅",
+        "type": "MCQ",
+        "image": "q32.jpg"
+    },
+    {
+        "question_id": 33,
+        "question": "A hemispherical vessel is completely filled with a liquid of refractive index μ. A small coin is kept at the lowest point (O) of the vessel as shown in the figure. The minimum value of the refractive index of the liquid so that a person can see the coin from point E (at the level of the vessel) is",
+        "options": [
+            "√3",
+            "√3/2",
+            "3/2",
+            "√3/2"
+        ],
+        "answer": "3/2",
+        "type": "MCQ",
+        "image": "q33.jpg"
+    },
+    {
+        "question_id": 34,
+        "question": "A Carnot engine (E) is working between two temperatures 473 K and 273 K. In a new system, two engines - engine E₁ works between 473 K to 373 K and engine E₂ works between 373 K to 273 K. If η₁₂, η₁, and η₂ are the efficiencies of the engines E, E₁, and E₂, respectively, then",
+        "options": [
+            "η₁₂ = η₁η₂",
+            "η₁₂ ≥ η₁ + η₂",
+            "η₁₂ = η₁ + η₂",
+            "η₁₂ < η₁ + η₂"
+        ],
+        "answer": "η₁₂ < η₁ + η₂",
+        "type": "MCQ",
+        "image": "q34.jpg"
+    },
+    {
+        "question_id": 35,
+        "question": "Consider a long thin conducting wire carrying a uniform current I. A particle having mass 'M' and charge 'q' is released at a distance 'a' from the wire with a speed v₀ along the direction of current in the wire. The particle gets attracted to the wire due to magnetism. The particle turns round when it is at a distance x from the wire. The value of x is [μ₀ is vacuum permeability]",
+        "options": [
+            "a e^(−4πm v₀ / qμ₀ I)",
+            "a [1 − (mv₀ / 2qμ₀ I)]",
+            "a [1 − (mv₀ / qμ₀ I)]",
+            "a / π"
+        ],
+        "answer": "a [1 − (mv₀ / qμ₀ I)]",
+        "type": "MCQ",
+        "image": "q35.jpg"
+    },
+    {
+        "question_id": 36,
+        "question": "A wire of resistance R is bent into an equilateral triangle and an identical wire is bent into a square. The ratio of resistance between the two end points of an edge of the triangle to that of the square is",
+        "options": [
+            "8/9",
+            "27/32",
+            "32/27",
+            "9/8"
+        ],
+        "answer": "9/8",
+        "type": "MCQ",
+        "image": "q36.jpg"
+    },
+    {
+        "question_id": 37,
+        "question": "In the experiment for measurement of viscosity 'η' of a given liquid with a ball having radius R, consider the following statements. A. Graph between terminal velocity V and R will be a parabola. B. The terminal velocities of different diameter balls are constant for a given liquid. C. Measurement of terminal velocity is dependent on the temperature. D. This experiment can be utilized to assess the density of a given liquid. Choose the correct answer from the options given below:",
+        "options": [
+            "A, B and E Only",
+            "B, D and E Only",
+            "A, C and D Only",
+            "C, D and E Only"
+        ],
+        "answer": "C, D and E Only",
+        "type": "MCQ",
+        "image": "q37.jpg"
+    },
+    {
+        "question_id": 38,
+        "question": "Due to the presence of an em-wave whose electric component is given by E = 100 sin(ωt − kx) NC⁻¹, a cylinder of length 200 cm holds a certain amount of em-energy inside it. If another cylinder of the same length but half the diameter of the previous one holds the same amount of em-energy, the magnitude of the electric field of the corresponding em-wave should be modified as",
+        "options": [
+            "400 sin(ωt − kx) NC⁻¹",
+            "200 sin(ωt − kx) NC⁻¹",
+            "50 sin(ωt − kx) NC⁻¹",
+            "25 sin(ωt − kx) NC⁻¹"
+        ],
+        "answer": "200 sin(ωt − kx) NC⁻¹",
+        "type": "MCQ",
+        "image": "q38.jpg"
     }
 ]
