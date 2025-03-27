@@ -1,0 +1,256 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header with Timer */
+header {
+    background: #1f1f1f;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #00c8ff;
+}
+
+#timer {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff3d00;
+}
+
+/* Question Navigation */
+#question-nav {
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 80px;
+    height: 100%;
+    background: #181818;
+    padding: 15px;
+    text-align: center;
+    overflow-y: auto;
+}
+
+#question-nav h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #00ff99;
+}
+
+#nav-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.nav-btn {
+    width: 30px;
+    height: 30px;
+    background: #333;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.nav-btn:hover,
+.nav-btn.active {
+    background: #00ff99;
+    color: #121212;
+}
+
+/* Main Content */
+main {
+    margin-left: 100px;
+    margin-top: 80px;
+    max-width: 800px;
+    background: #222;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 255, 153, 0.3);
+    text-align: center;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#question-text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+#question-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 200, 255, 0.3);
+}
+
+/* Options */
+#options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option-btn {
+    background: #333;
+    color: #fff;
+    border: 2px solid #444;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.option-btn:hover {
+    background: #00c8ff;
+    border-color: #00c8ff;
+    color: #121212;
+}
+
+.option-btn.selected {
+    background: #00ff99;
+    border-color: #00ff99;
+    color: #121212;
+}
+
+/* Integer Answer Input */
+#integer-answer {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #00c8ff;
+    border-radius: 5px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    display: none;
+}
+
+/* Navigation Buttons */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+#prev-btn {
+    background: #555;
+    color: #fff;
+}
+
+#next-btn {
+    background: #00c8ff;
+    color: #121212;
+}
+
+#prev-btn:hover {
+    background: #777;
+}
+
+#next-btn:hover {
+    background: #00ff99;
+}
+
+/* Submit Button */
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#submit-btn {
+    background: #ff3d00;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+#submit-btn:hover {
+    background: #ff5722;
+}
+
+/* Results Container */
+#result-container {
+    margin-top: 20px;
+    background: #181818;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #00ff99;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #question-nav {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+
+    main {
+        margin-left: 0;
+        width: 90%;
+    }
+
+    .controls {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
