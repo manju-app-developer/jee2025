@@ -3,47 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JEE Mains Mock Test</title>
+    <title>JEE Mains Mock Test - Advanced</title>
+    
+    <!-- External Stylesheet -->
     <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
 
-    <!-- Header with Timer -->
+    <!-- Header Section -->
     <header>
         <h1>JEE Mains Mock Test</h1>
-        <div id="timer">Time Left: 3:00:00</div>
+        
+        <!-- Timer -->
+        <div id="timer-container">
+            <i class="fas fa-clock"></i> <span id="timer">3:00:00</span>
+        </div>
+
+        <!-- Dark Mode Toggle -->
+        <button id="dark-mode-toggle"><i class="fas fa-moon"></i></button>
     </header>
 
-    <!-- Question Navigation -->
-    <nav id="question-nav">
-        <h3>Questions</h3>
-        <div id="nav-buttons"></div>
-    </nav>
+    <div class="content-wrapper">
+        <!-- Sidebar Navigation -->
+        <nav id="question-nav">
+            <h3>Questions</h3>
+            <div id="nav-buttons"></div>
+        </nav>
 
-    <!-- Question Display Area -->
-    <main>
-        <div id="question-container">
-            <p id="question-text">Loading question...</p>
-            <img id="question-image" src="" alt="Question Image" style="display: none;">
-            
-            <div id="options-container"></div>
-            
-            <input type="number" id="integer-answer" placeholder="Enter answer" style="display: none;">
-        </div>
+        <!-- Main Question Display Area -->
+        <main>
+            <div id="question-container">
+                <p id="question-text">Loading question...</p>
+                <img id="question-image" src="" alt="Question Image" style="display: none; max-width: 100%; border-radius: 8px;">
+                
+                <div id="options-container"></div>
+                
+                <input type="number" id="integer-answer" placeholder="Enter answer" style="display: none;">
+            </div>
 
-        <!-- Navigation Buttons -->
-        <div class="controls">
-            <button id="prev-btn">Previous</button>
-            <button id="next-btn">Next</button>
-        </div>
-    </main>
+            <!-- Navigation Buttons -->
+            <div class="controls">
+                <button id="prev-btn"><i class="fas fa-arrow-left"></i> Previous</button>
+                <button id="next-btn">Next <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </main>
+    </div>
 
-    <!-- Submit Button -->
+    <!-- Footer with Submit Button -->
     <footer>
-        <button id="submit-btn">Submit Test</button>
+        <button id="submit-btn"><i class="fas fa-paper-plane"></i> Submit Test</button>
         <div id="result-container" style="display: none;"></div>
     </footer>
 
+    <!-- External JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
