@@ -479,59 +479,123 @@
         "type": "MCQ",
         "image": "q44.jpg"
     },
-[
-  {
-    "question_id": 45,
-    "question": "A proton of mass ‘mp’ has the same energy as that of a photon of wavelength ‘λ’. If the proton is moving at non-relativistic speed, then the ratio of its de Broglie wavelength to the wavelength of the photon is:",
-    "options": [
-      "λ / c √(E / mp)",
-      "λ √(E / mp)",
-      "λ / (2c) √(E / mp)",
-      "λ / c √(E / 2mp)"
-    ],
-    "answer": null,
-    "type": "MCQ",
-    "image": "q45.jpg"
-  },
-  {
-    "question_id": 46,
-    "question": "A double slit interference experiment performed with a light of wavelength 600 nm forms an interference fringe pattern on a screen with 10th bright fringe having its centre at a distance of 10 mm from the central maximum. Distance of the centre of the same 10th bright fringe from the central maximum when the source of light is replaced by another source of wavelength 660 nm would be:",
-    "options": [],
-    "answer": null,
-    "type": "Integer",
-    "image": "q46.jpg"
-  },
-  {
-    "question_id": 47,
-    "question": "In a measurement, it is asked to find modulus of elasticity per unit torque applied on the system. The measured quantity has dimension of [M^a L^b T^c]. If b = -3, the value of c is:",
-    "options": [],
-    "answer": null,
-    "type": "Integer",
-    "image": "q47.jpg"
-  },
-  {
-    "question_id": 48,
-    "question": "A tiny metallic rectangular sheet has length and breadth of 5 mm and 2.5 mm, respectively. Using a specially designed screw gauge which has pitch of 0.75 mm and 15 divisions in the circular scale, you are asked to find the area of the sheet. In this measurement, the maximum fractional error will be 100/x where x is:",
-    "options": [],
-    "answer": null,
-    "type": "Integer",
-    "image": "q48.jpg"
-  },
-  {
-    "question_id": 49,
-    "question": "Two iron solid discs of negligible thickness have radii R1 and R2 and moment of inertia I1 and I2, respectively. For R2 = 2R1, the ratio of I1 and I2 would be 1/x, where x =",
-    "options": [],
-    "answer": null,
-    "type": "Integer",
-    "image": "q49.jpg"
-  },
-  {
-    "question_id": 50,
-    "question": "The moment of inertia of a solid disc rotating along its diameter is 2.5 times higher than the moment of inertia of a ring rotating in a similar way. The moment of inertia of a solid sphere which has the same radius as the disc and rotating in a similar way, is n times higher than the moment of inertia of the given ring. Here, n =",
-    "options": [],
-    "answer": null,
-    "type": "Integer",
-    "image": "q50.jpg"
-  }
+    {
+        "question_id": 45,
+        "question": "A proton of mass ‘mp’ has the same energy as that of a photon of wavelength ‘λ’. If the proton is moving at non-relativistic speed, then the ratio of its de Broglie wavelength to the wavelength of the photon is:",
+        "options": [
+          "λ / c √(E / mp)",
+          "λ √(E / mp)",
+          "λ / (2c) √(E / mp)",
+          "λ / c √(E / 2mp)"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q45.jpg"
+    },
+    {
+        "question_id": 46,
+        "question": "A double slit interference experiment performed with a light of wavelength 600 nm forms an interference fringe pattern on a screen with 10th bright fringe having its centre at a distance of 10 mm from the central maximum. Distance of the centre of the same 10th bright fringe from the central maximum when the source of light is replaced by another source of wavelength 660 nm would be:",
+        "options": [],
+        "answer": null,
+        "type": "Integer",
+        "image": "q46.jpg"
+    },
+    {
+        "question_id": 47,
+        "question": "In a measurement, it is asked to find modulus of elasticity per unit torque applied on the system. The measured quantity has dimension of [M^a L^b T^c]. If b = -3, the value of c is:",
+        "options": [],
+        "answer": null,
+        "type": "Integer",
+        "image": "q47.jpg"
+    },
+    {
+        "question_id": 48,
+        "question": "A tiny metallic rectangular sheet has length and breadth of 5 mm and 2.5 mm, respectively. Using a specially designed screw gauge which has pitch of 0.75 mm and 15 divisions in the circular scale, you are asked to find the area of the sheet. In this measurement, the maximum fractional error will be 100/x where x is:",
+        "options": [],
+        "answer": null,
+        "type": "Integer",
+        "image": "q48.jpg"
+    },
+    {
+        "question_id": 49,
+        "question": "Two iron solid discs of negligible thickness have radii R1 and R2 and moment of inertia I1 and I2, respectively. For R2 = 2R1, the ratio of I1 and I2 would be 1/x, where x =",
+        "options": [],
+        "answer": null,
+        "type": "Integer",
+        "image": "q49.jpg"
+    },
+    {
+        "question_id": 50,
+        "question": "The moment of inertia of a solid disc rotating along its diameter is 2.5 times higher than the moment of inertia of a ring rotating in a similar way. The moment of inertia of a solid sphere which has the same radius as the disc and rotating in a similar way, is n times higher than the moment of inertia of the given ring. Here, n =",
+        "options": [],
+        "answer": null,
+        "type": "Integer",
+        "image": "q50.jpg"
+    },
+    {
+        "question_id": 51,
+        "question": "Given below are two statements:\nStatement I: D-glucose pentaacetate reacts with 2,4-dinitrophenylhydrazine.\nStatement II: Starch, on heating with concentrated sulfuric acid at 100°C and 2-3 atmosphere pressure, produces glucose.\nIn the light of the above statements, choose the correct answer from the options given below:",
+        "options": [
+          "Statement I is false but Statement II is true",
+          "Both Statement I and Statement II are false",
+          "Both Statement I and Statement II are true",
+          "Statement I is true but Statement II is false"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q51.jpg"
+    },
+    {
+        "question_id": 52,
+        "question": "Both acetaldehyde and acetone (individually) undergo which of the following reactions?\nA. Iodoform Reaction\nB. Cannizzaro Reaction\nC. Aldol Condensation\nD. Tollens' Test\nE. Clemmensen Reduction\nChoose the correct answer from the options given below:",
+        "options": [
+          "A, B and D Only",
+          "C and E Only",
+          "A, C and E Only",
+          "B, C and D Only"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q52.jpg"
+    },
+    {
+        "question_id": 53,
+        "question": "Which of the following oxidation reactions are carried out by both K₂Cr₂O₇ and KMnO₄ in acidic medium?\nA. I⁻ → I₂\nB. S²⁻ → S\nC. Fe²⁺ → Fe³⁺\nD. IO₃⁻ → I₂\nE. S₂O₃²⁻ → SO₄²⁻\nChoose the correct answer from the options given below:",
+        "options": [
+          "B and C Only",
+          "D and E Only",
+          "A, D and E Only",
+          "A, B and C Only"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q53.jpg"
+    },
+    {
+        "question_id": 54,
+        "question": "A molecule ('P') on treatment with acid undergoes rearrangement and gives ('Q'). ('Q') on ozonolysis followed by reflux under alkaline conditions gives ('R'). The structure of ('R') is given below. The structure of ('P') is:",
+        "options": [
+          "Option 1: Benzocyclobutene with a methyl group",
+          "Option 2: Cyclopentene with an isopropyl group",
+          "Option 3: Bicyclo[2.2.1]heptane with two methyl groups",
+          "Option 4: Cyclopentanol with an isopropyl group"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q54.jpg"
+    },
+    {
+        "question_id": 55,
+        "question": "The correct order of stability of the following carbocations is:",
+        "options": [
+          "C > B > A > D",
+          "A > B > C > D",
+          "B > C > A > D",
+          "C > A > B > D"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q55.jpg"
+    }
 ]
 
