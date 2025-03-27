@@ -687,6 +687,83 @@
         "answer": null,
         "type": "MCQ",
         "image": "q62.jpg"
-    }
+    },
+    {
+        "question_id": 63,
+        "question": "Given below are two statements:\nStatement I: In the oxalic acid vs KMnO4 (in the presence of dil H2SO4) titration, the solution needs to be heated initially to 60°C, but no heating is required in Ferrous ammonium sulphate (FAS) vs KMnO4 titration (in the presence of dil H2SO4).\nStatement II: In oxalic acid vs KMnO4 titration, the initial formation of MnSO4 takes place at high temperature, which then acts as a catalyst for further reaction. In the case of FAS vs KMnO4, heating oxidizes Fe2+ into Fe3+ by oxygen of air and error may be introduced in the experiment.\nIn the light of the above statements, choose the correct answer from the options given below:",
+        "options": [
+          "Both Statement I and Statement II are false",
+          "Both Statement I and Statement II are true",
+          "Statement I is false but Statement II is true",
+          "Statement I is true but Statement II is false"
+        ],
+        "answer": null,
+        "type": "MCQ"
+        "image": "q63.jpg"
+    },
+    {
+        "question_id": 64,
+        "question": "The metal in whose electronic configuration is not affected by the nature of the ligand and which gives orange violet colour in non-luminous flame under hot condition in borax bead test is:",
+        "options": [
+          "Mn2+",
+          "Cr3+",
+          "Ni2+",
+          "Ti3+"
+        ],
+        "answer": null,
+        "type": "MCQ"
+        "image": "q64.jpg"
+    },
+    {
+        "question_id": 65,
+        "question": "The compounds that produce CO2 with aqueous NaHCO3 solution are:\nChoose the correct answer from the options given below:",
+        "options": [
+          "A, C and D Only",
+          "A, B and E Only",
+          "A and C Only",
+          "A and B Only"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q65.jpg"
+     },
+     {
+        "question_id": 66,
+        "question": "What is the freezing point depression constant of a solvent, 50 g of which contain 1 g non volatile solute (molar mass 256 g mol−1) and the decrease in freezing point is 0.40 K?",
+        "options": [
+          "3.72 K kg mol−1",
+          "1.86 K kg mol−1",
+          "4.43 K kg mol−1",
+          "5.12 K kg mol−1"
+        ],
+        "answer": null,
+        "type": "MCQ"
+        "image": "q66.jpg"
+     },
+     {
+        "question_id": 67,
+        "question": "Given below are two statements:\nStatement I: The given compound will undergo alkaline hydrolysis at a faster rate than the other compound.\nStatement II: Intramolecular substitution takes place first by involving lone pair of electrons on nitrogen.\nIn the light of the above statements, choose the most appropriate answer from the options given below:",
+        "options": [
+          "Statement I is incorrect but Statement II is correct",
+          "Statement I is correct but Statement II is incorrect",
+          "Both Statement I and Statement II are correct",
+          "Both Statement I and Statement II are incorrect"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q67.jpg"
+     },
+     {
+        "question_id": 68,
+        "question": "Ice and water are placed in a closed container at a pressure of 1 atm and temperature 273.15 K. If pressure of the system is increased 2 times, keeping temperature constant, then identify correct observation from following:",
+        "options": [
+          "Volume of system increases",
+          "The solid phase (ice) disappears completely",
+          "Liquid phase disappears completely",
+          "The amount of ice decreases"
+        ],
+        "answer": null,
+        "type": "MCQ"
+     }
 ]
 
