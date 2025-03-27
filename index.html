@@ -22,17 +22,19 @@
         <h1>JEE Mains Mock Test</h1>
         
         <!-- Timer -->
-        <div id="timer-container">
+        <div id="timer-container" aria-label="Exam Timer">
             <i class="fas fa-clock"></i> <span id="timer">3:00:00</span>
         </div>
 
         <!-- Dark Mode Toggle -->
-        <button id="dark-mode-toggle"><i class="fas fa-moon"></i></button>
+        <button id="dark-mode-toggle" aria-label="Toggle Dark Mode">
+            <i class="fas fa-moon"></i> 
+        </button>
     </header>
 
     <div class="content-wrapper">
         <!-- Sidebar Navigation -->
-        <nav id="question-nav">
+        <nav id="question-nav" aria-label="Question Navigation">
             <h3>Questions</h3>
             <div id="nav-buttons"></div>
         </nav>
@@ -43,22 +45,22 @@
                 <p id="question-text">Loading question...</p>
                 <img id="question-image" src="" alt="Question Image" style="display: none; max-width: 100%; border-radius: 8px;">
                 
-                <div id="options-container"></div>
+                <div id="options-container" role="radiogroup" aria-label="Answer Options"></div>
                 
-                <input type="number" id="integer-answer" placeholder="Enter answer" style="display: none;">
+                <input type="number" id="integer-answer" placeholder="Enter answer" aria-label="Enter your answer" style="display: none;">
             </div>
 
             <!-- Navigation Buttons -->
             <div class="controls">
-                <button id="prev-btn"><i class="fas fa-arrow-left"></i> Previous</button>
-                <button id="next-btn">Next <i class="fas fa-arrow-right"></i></button>
+                <button id="prev-btn" aria-label="Previous Question"><i class="fas fa-arrow-left"></i> Previous</button>
+                <button id="next-btn" aria-label="Next Question">Next <i class="fas fa-arrow-right"></i></button>
             </div>
         </main>
     </div>
 
     <!-- Footer with Submit Button -->
     <footer>
-        <button id="submit-btn"><i class="fas fa-paper-plane"></i> Submit Test</button>
+        <button id="submit-btn" aria-label="Submit Test"><i class="fas fa-paper-plane"></i> Submit Test</button>
         <div id="result-container" style="display: none;"></div>
     </footer>
 
