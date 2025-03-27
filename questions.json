@@ -400,5 +400,138 @@
         "answer": "200 sin(ωt − kx) NC⁻¹",
         "type": "MCQ",
         "image": "q38.jpg"
-    }
+    },
+    {
+        "question_id": 39,
+        "question": "A bead of mass 'm' slides without friction on the wall of a vertical circular hoop of radius 'R' as shown in the figure. The bead moves under the combined action of gravity and a massless spring (k) attached to the bottom of the hoop. The equilibrium length of the spring is 'R'. If the bead is released from the top of the hoop with (negligible) zero initial speed, velocity of bead, when the length of spring becomes 'R', would be (spring constant is 'k', g is acceleration due to gravity)?",
+        "options": [
+            "√(3Rg + kR²/m)",
+            "2√(gR + kR²/m)",
+            "√(2Rg + kR²/m)",
+            "√(2Rg + 4kR²/m)"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q39.jpg"
+    },
+    {
+        "question_id": 40,
+        "question": "Find the equivalent resistance between two ends of the following circuit.",
+        "options": [
+            "1/3",
+            "1/6",
+            "1/2",
+            "1/6"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q40.jpg"
+    },
+    {
+        "question_id": 41,
+        "question": "Consider the following statements: \nA. Surface tension arises due to extra energy of the molecules at the interior as compared to the molecules at the surface of a liquid. \nB. As the temperature of liquid rises, the coefficient of viscosity increases. \nC. As the temperature of gas increases, the coefficient of viscosity increases. \nD. The onset of turbulence is determined by Reynold's number. \nE. In a steady flow, two streamlines never intersect. \nChoose the correct answer from the options given below:",
+        "options": [
+            "C, D, E Only",
+            "A, D, E Only",
+            "B, C, D Only",
+            "A, B, C Only"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q41.jpg"
+    },
+    {
+        "question_id": 42,
+        "question": "The center of mass of a thin rectangular plate (fig - x) with sides of length a and b, whose mass per unit area (σ) varies as σ = (σ₀ x / ab), where σ₀ is a constant, would be:",
+        "options": [
+            "(3/4 a, b/2)",
+            "(a, b/2)",
+            "(3/4 a, 2/3 b)",
+            "(3/4 a, 3/8 b)"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q42.jpg"
+    },
+    {
+        "question_id": 43,
+        "question": "Which of the following circuits has the same output as that of the given circuit?",
+        "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Option 4"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q43.jpg"
+    },
+    {
+        "question_id": 44,
+        "question": "For a particular ideal gas, which of the following graphs represents the variation of mean squared velocity of the gas molecules with temperature?",
+        "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Option 4"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q44.jpg"
+    },
+[
+  {
+    "question_id": 45,
+    "question": "A proton of mass ‘mp’ has the same energy as that of a photon of wavelength ‘λ’. If the proton is moving at non-relativistic speed, then the ratio of its de Broglie wavelength to the wavelength of the photon is:",
+    "options": [
+      "λ / c √(E / mp)",
+      "λ √(E / mp)",
+      "λ / (2c) √(E / mp)",
+      "λ / c √(E / 2mp)"
+    ],
+    "answer": null,
+    "type": "MCQ",
+    "image": "q45.jpg"
+  },
+  {
+    "question_id": 46,
+    "question": "A double slit interference experiment performed with a light of wavelength 600 nm forms an interference fringe pattern on a screen with 10th bright fringe having its centre at a distance of 10 mm from the central maximum. Distance of the centre of the same 10th bright fringe from the central maximum when the source of light is replaced by another source of wavelength 660 nm would be:",
+    "options": [],
+    "answer": null,
+    "type": "Integer",
+    "image": "q46.jpg"
+  },
+  {
+    "question_id": 47,
+    "question": "In a measurement, it is asked to find modulus of elasticity per unit torque applied on the system. The measured quantity has dimension of [M^a L^b T^c]. If b = -3, the value of c is:",
+    "options": [],
+    "answer": null,
+    "type": "Integer",
+    "image": "q47.jpg"
+  },
+  {
+    "question_id": 48,
+    "question": "A tiny metallic rectangular sheet has length and breadth of 5 mm and 2.5 mm, respectively. Using a specially designed screw gauge which has pitch of 0.75 mm and 15 divisions in the circular scale, you are asked to find the area of the sheet. In this measurement, the maximum fractional error will be 100/x where x is:",
+    "options": [],
+    "answer": null,
+    "type": "Integer",
+    "image": "q48.jpg"
+  },
+  {
+    "question_id": 49,
+    "question": "Two iron solid discs of negligible thickness have radii R1 and R2 and moment of inertia I1 and I2, respectively. For R2 = 2R1, the ratio of I1 and I2 would be 1/x, where x =",
+    "options": [],
+    "answer": null,
+    "type": "Integer",
+    "image": "q49.jpg"
+  },
+  {
+    "question_id": 50,
+    "question": "The moment of inertia of a solid disc rotating along its diameter is 2.5 times higher than the moment of inertia of a ring rotating in a similar way. The moment of inertia of a solid sphere which has the same radius as the disc and rotating in a similar way, is n times higher than the moment of inertia of the given ring. Here, n =",
+    "options": [],
+    "answer": null,
+    "type": "Integer",
+    "image": "q50.jpg"
+  }
 ]
+
