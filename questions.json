@@ -251,8 +251,62 @@
     },
     {
         "question_id": 27,
-        "question": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R. Assertion A: A sound wave has higher speed in solids than gases. Reason R: Gases have higher value of Bulk modulus than solids. In the light of the above statements, choose the correct answer from the options given below",
-        "options": [],
+        "question": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R\n\nAssertion A: A sound wave has higher speed in solids than gases.\nReason R: Gases have higher value of Bulk modulus than solids.\n\nIn the light of the above statements, choose the correct answer from the options given below:",
+        "options": [
+            "Both A and R are true but R is NOT the correct explanation of A",
+            "A is true but R is false",
+            "A is false but R is true",
+            "Both A and R are true and R is the correct explanation of A"
+        ],
+        "answer": "Both A and R are true but R is NOT the correct explanation of A",
+        "type": "MCQ",
+        "image": "q27.jpg"
+    },
+    {
+        "question_id": 28,
+        "question": "Two capacitors C₁ and C₂ are connected in parallel to a battery. Charge-time graph is shown below for the two capacitors. The energy stored with them are U₁ and U₂, respectively. Which of the given statements is true?",
+        "options": [
+            "C₂ > C₁, U₂ < U₁",
+            "C₁ > C₂, U₁ > U₂",
+            "C₁ > C₂, U₁ < U₂",
+            "C₂ > C₁, U₂ > U₁"
+        ],
+        "answer": null,
+        "type": "MCQ"
+    },
+    {
+        "question_id": 29,
+        "question": "A thin prism P₁ with angle 4° made of glass having refractive index 1.54, is combined with another thin prism P₂ made of glass having refractive index 1.72 to get dispersion without deviation. The angle of the prism P₂ in degrees is",
+        "options": [
+            "3°",
+            "16/3",
+            "4",
+            "1.5"
+        ],
+        "answer": null,
+        "type": "MCQ"
+    },
+    {
+        "question_id": 30,
+        "question": "A particle of mass 'm' and charge 'q' is fastened to one end 'A' of a massless string having equilibrium length l, whose other end is fixed at point 'O'. The whole system is placed on a frictionless horizontal plane and is initially at rest. If uniform electric field is switched on along the direction as shown in figure, then the speed of the particle when it crosses the x-axis is",
+        "options": [
+            "√(qE l / 2 m)",
+            "√(qE l / m)",
+            "√(qE l / 4 m)",
+            "√(2qE l / m)"
+        ],
+        "answer": null,
+        "type": "MCQ"
+    },
+    {
+        "question_id": 31,
+        "question": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R.\n\nAssertion A: In a central force field, the work done is independent of the path chosen.\nReason R: Every force encountered in mechanics does not have an associated potential energy.\n\nIn the light of the above statements, choose the most appropriate answer from the options given below",
+        "options": [
+            "Both A and R are true but R is NOT the correct explanation of A",
+            "A is true but R is false",
+            "A is false but R is true",
+            "Both A and R are true and R is the correct explanation of A"
+        ],
         "answer": null,
         "type": "MCQ"
     }
